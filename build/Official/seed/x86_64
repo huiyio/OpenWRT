@@ -53,6 +53,7 @@ CONFIG_PACKAGE_dns2socks=y
 CONFIG_PACKAGE_dns2tcp=y
 CONFIG_PACKAGE_glib2=y
 CONFIG_PACKAGE_haproxy=y
+CONFIG_PACKAGE_hysteria=y
 CONFIG_PACKAGE_ip-full=y
 CONFIG_PACKAGE_ip6tables-nft=y
 CONFIG_PACKAGE_ipset=y
@@ -155,14 +156,21 @@ CONFIG_PACKAGE_luci-app-netdata=y
 CONFIG_PACKAGE_luci-app-openclash=y
 CONFIG_PACKAGE_luci-app-passwall=y
 CONFIG_PACKAGE_luci-app-passwall_INCLUDE_Haproxy=y
+CONFIG_PACKAGE_luci-app-passwall_INCLUDE_Hysteria=y
 CONFIG_PACKAGE_luci-app-passwall_INCLUDE_ShadowsocksR_Libev_Client=y
+CONFIG_PACKAGE_luci-app-passwall_INCLUDE_ShadowsocksR_Libev_Server=y
 CONFIG_PACKAGE_luci-app-passwall_INCLUDE_Shadowsocks_Libev_Client=y
 CONFIG_PACKAGE_luci-app-passwall_INCLUDE_Shadowsocks_Libev_Server=y
+CONFIG_PACKAGE_luci-app-passwall_INCLUDE_Shadowsocks_Rust_Client=y
+CONFIG_PACKAGE_luci-app-passwall_INCLUDE_Shadowsocks_Rust_Server=y
 CONFIG_PACKAGE_luci-app-passwall_INCLUDE_Simple_Obfs=y
 CONFIG_PACKAGE_luci-app-passwall_INCLUDE_SingBox=y
 CONFIG_PACKAGE_luci-app-passwall_INCLUDE_Trojan_Plus=y
+CONFIG_PACKAGE_luci-app-passwall_INCLUDE_V2ray_Geodata=y
 CONFIG_PACKAGE_luci-app-passwall_INCLUDE_V2ray_Plugin=y
 CONFIG_PACKAGE_luci-app-passwall_INCLUDE_Xray=y
+CONFIG_PACKAGE_luci-app-passwall_INCLUDE_Xray_Plugin=y
+CONFIG_PACKAGE_luci-app-passwall_INCLUDE_tuic_client=y
 CONFIG_PACKAGE_luci-app-passwall_Iptables_Transparent_Proxy=y
 CONFIG_PACKAGE_luci-app-passwall_Nftables_Transparent_Proxy=y
 CONFIG_PACKAGE_luci-app-poweroff=y
@@ -171,7 +179,6 @@ CONFIG_PACKAGE_luci-app-ramfree=y
 # CONFIG_PACKAGE_luci-app-rclone_INCLUDE_rclone-ng is not set
 # CONFIG_PACKAGE_luci-app-rclone_INCLUDE_rclone-webui is not set
 # CONFIG_PACKAGE_luci-app-ssr-plus_INCLUDE_ChinaDNS_NG is not set
-# CONFIG_PACKAGE_luci-app-ssr-plus_INCLUDE_MosDNS is not set
 # CONFIG_PACKAGE_luci-app-ssr-plus_INCLUDE_ShadowsocksR_Libev_Client is not set
 # CONFIG_PACKAGE_luci-app-ssr-plus_INCLUDE_ShadowsocksR_Libev_Server is not set
 # CONFIG_PACKAGE_luci-app-ssr-plus_INCLUDE_Shadowsocks_Simple_Obfs is not set
@@ -186,6 +193,7 @@ CONFIG_PACKAGE_luci-i18n-poweroff-zh-cn=y
 CONFIG_PACKAGE_luci-i18n-ramfree-zh-cn=y
 CONFIG_PACKAGE_luci-lib-taskd=y
 CONFIG_PACKAGE_luci-lib-xterm=y
+CONFIG_PACKAGE_luci-theme-bootstrap=m
 CONFIG_PACKAGE_microsocks=y
 CONFIG_PACKAGE_mosdns=y
 CONFIG_PACKAGE_netdata=y
@@ -212,8 +220,11 @@ CONFIG_PACKAGE_script-utils=y
 CONFIG_PACKAGE_shadowsocks-libev-ss-local=y
 CONFIG_PACKAGE_shadowsocks-libev-ss-redir=y
 CONFIG_PACKAGE_shadowsocks-libev-ss-server=y
+CONFIG_PACKAGE_shadowsocks-rust-sslocal=y
+CONFIG_PACKAGE_shadowsocks-rust-ssserver=y
 CONFIG_PACKAGE_shadowsocksr-libev-ssr-local=y
 CONFIG_PACKAGE_shadowsocksr-libev-ssr-redir=y
+CONFIG_PACKAGE_shadowsocksr-libev-ssr-server=y
 CONFIG_PACKAGE_simple-obfs=y
 CONFIG_PACKAGE_sing-box=y
 CONFIG_PACKAGE_smartmontools=y
@@ -226,12 +237,14 @@ CONFIG_PACKAGE_tar=y
 CONFIG_PACKAGE_taskd=y
 CONFIG_PACKAGE_tcping=y
 CONFIG_PACKAGE_trojan-plus=y
+CONFIG_PACKAGE_tuic-client=y
 CONFIG_PACKAGE_unzip=y
 CONFIG_PACKAGE_v2dat=y
 CONFIG_PACKAGE_v2ray-geoip=y
 CONFIG_PACKAGE_v2ray-geosite=y
 CONFIG_PACKAGE_v2ray-plugin=y
 CONFIG_PACKAGE_xray-core=y
+CONFIG_PACKAGE_xray-plugin=y
 CONFIG_PACKAGE_xtables-legacy=y
 CONFIG_PACKAGE_xtables-nft=y
 CONFIG_PACKAGE_xz=y
@@ -246,6 +259,7 @@ CONFIG_SING_BOX_WITH_QUIC=y
 CONFIG_SING_BOX_WITH_UTLS=y
 CONFIG_SING_BOX_WITH_WIREGUARD=y
 CONFIG_TARGET_KERNEL_PARTSIZE=512
+# CONFIG_TARGET_ROOTFS_EXT4FS is not set
 CONFIG_TARGET_ROOTFS_PARTSIZE=2048
 CONFIG_ZSTD_OPTIMIZE_O3=y
 CONFIG_boost-compile-visibility-hidden=y
