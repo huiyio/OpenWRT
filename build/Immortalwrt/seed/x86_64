@@ -142,9 +142,6 @@ CONFIG_PACKAGE_ruby-pstore=y
 CONFIG_PACKAGE_ruby-psych=y
 CONFIG_PACKAGE_ruby-stringio=y
 CONFIG_PACKAGE_ruby-yaml=y
-# CONFIG_PACKAGE_shadowsocks-libev-ss-local is not set
-# CONFIG_PACKAGE_shadowsocks-libev-ss-redir is not set
-# CONFIG_PACKAGE_shadowsocks-libev-ss-serve is not set
 CONFIG_PACKAGE_shadowsocks-rust-sslocal=y
 CONFIG_PACKAGE_shadowsocks-rust-ssserver=y
 CONFIG_PACKAGE_shadowsocksr-libev-ssr-local=y
@@ -179,3 +176,6 @@ CONFIG_boost-static-and-shared-libs=y
 CONFIG_boost-variant-release=y
 # CONFIG_PACKAGE_luci-app-passwall_INCLUDE_Shadowsocks_Libev_Client is not set
 # CONFIG_PACKAGE_luci-app-passwall_INCLUDE_Shadowsocks_Libev_Server is not set
+# CONFIG_PACKAGE_shadowsocks-libev-ss-local is not set
+# CONFIG_PACKAGE_shadowsocks-libev-ss-redir is not set
+# CONFIG_PACKAGE_shadowsocks-libev-ss-server is not set
