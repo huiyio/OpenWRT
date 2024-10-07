@@ -75,6 +75,7 @@ export kernel_usage="stable"
 
 # 修改插件名字
 # sed -i 's/"终端"/"TTYD"/g' `egrep "终端" -rl ./`
+# sed -i 's/"终端"/"TTYD"/g' `egrep "终端" -rl ./`
 # sed -i 's/"aMule设置"/"电驴下载"/g' `egrep "aMule设置" -rl ./`
 # sed -i 's/"网络存储"/"NAS"/g' `egrep "网络存储" -rl ./`
 # sed -i 's/"Turbo ACC 网络加速"/"网络加速"/g' `egrep "Turbo ACC 网络加速" -rl ./`
@@ -85,9 +86,6 @@ export kernel_usage="stable"
 # sed -i 's/"Web 管理"/"Web管理"/g' `egrep "Web 管理" -rl ./`
 # sed -i 's/"管理权"/"改密码"/g' `egrep "管理权" -rl ./`
 # sed -i 's/"带宽监控"/"监控"/g' `egrep "带宽监控" -rl ./`
-
-# 拉取mihomi(新clash插件)
-git clone https://github.com/morytyann/OpenWrt-mihomo.git package/xhh/OpenWrt-mihomo
 
 # 更换argon最新主题版本
 rm -rf feeds/langge2/luci-theme-argon && git clone https://github.com/jerrykuku/luci-theme-argon.git feeds/langge2/luci-theme-argon
